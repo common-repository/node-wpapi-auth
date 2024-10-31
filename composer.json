@@ -1,0 +1,18 @@
+{
+  "name": "wp-api/node-wpapi-auth",
+  "description": "WP Cookies and Basic Authentication handler for the WP REST API, using NODE-WP-API client. It is used for development, debugging purposes, and if user likes, maybe for production.",
+  "homepage": "https://github.com/somefunagba",
+  "license": "GPL2",
+  "authors": [
+    {
+      "name": "Oluwasegun Somefun",
+      "email": "oluwasegun.somefun@yahoo.co.uk",
+      "homepage": "https://github.com.somefunagba"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "composer/installers": "v1.0.6"
+  }
+}

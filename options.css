@@ -1,0 +1,95 @@
+#opt-wrap {
+    background-color: #f1f1f1;
+    max-width: 40rem;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 2px 0 rgba(200,215,225,0.5), 0 1px 2px #e9eff3;
+    font-family: 'Impact', 'sans-serif';
+}
+
+#easy-js-wpapi_title {
+    color: #5759ab;
+    font-weight: 300;
+    margin-bottom: 0.45rem;
+    border-bottom: 0.25rem solid rgba(37, 147, 199, 0.78);
+    background-color: #fff;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    box-shadow: 0 1px 0 rgba(200,215,225,0.5), 0 1px 2px #e9eff3;
+    text-transform: uppercase;
+}
+
+#easy-js-wpapi_title>span {
+    text-transform: none;
+    font-weight: 100;
+    color: #0087be;
+}
+
+
+#opt-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 1px 3px 0 #3d3d3d, 0 1px 2px #e9eff3;
+}
+
+#opt-table td{
+    border: 1px solid #dd823b;
+    text-align: center;
+    padding: 1rem;
+}
+
+#lock, #unlock {
+    display: none;
+}
+
+td#bauth {
+    width: 33%;
+    font-size: 8rem;
+    text-align: center;
+    vertical-align: middle;
+    border-width: 1px 0;
+}
+td#usr_pw{
+    border-width: 1px 0 1px 1px;
+}
+#easy-js-wpapi_usr, #easy-js-wpapi_pw {
+    padding: 0.1rem 0;
+}
+
+#easy-js-wpapi_usr input, #easy-js-wpapi_pw input  {
+    color: #54aad3;
+    background-color: transparent;
+    font-size: 1.65rem;
+    font-weight: 500;
+    width: 90%;
+}
+
+div#easy-js-wpapi_submit p.submit {
+    text-align: center !important;
+}
+
+input#save {
+    color: #ffffff !important;
+    font-size: 2.2rem !important;
+    background-color:  #015ba7 !important ;
+    border: 1px solid transparent !important;
+    height: 3.5rem !important;
+    width: 10rem !important;
+    padding: 2px 14px !important;
+    cursor: pointer !important;
+    border-radius: 0.15rem !important;
+
+}
+
+input#save.opt_btn:hover {
+    cursor: pointer;
+    background-color: rgba(37, 147, 199, 0.78) !important;
+}
+
+div#opt-wrap div.updated p {
+    font-size: 48px;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 900;
+}
